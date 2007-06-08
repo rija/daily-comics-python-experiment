@@ -10,7 +10,7 @@ def sweepOldData(**keywords):
     if('basedir' in keywords.keys()):
         basedir = keywords['basedir']
     else:
-        basedir = "/Users/rija/Pictures/DailyComic/"
+        basedir = "/Users/rijam/Pictures/DailyComic/"
 
 # remove all past directories and files except current day
     curday = time.strftime("%Y/%m/%d")

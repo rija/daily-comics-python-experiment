@@ -6,7 +6,7 @@ import random
 from os.path import isdir,join
 
 class TestHouseKeeper(unittest.TestCase):
-    basedir = "/Users/rija/Pictures/DailyComic/tests"
+    basedir = "/Users/rijam/Pictures/DailyComic/tests"
     curday = time.strftime("%Y/%m/%d")
     curmonth = time.strftime("%m")
     curyear = time.strftime("%Y")

@@ -6,7 +6,7 @@ import random
 from os.path import isdir,join
 
 class TestGrabber(unittest.TestCase):
-    basedir = "/Users/rija/Pictures/DailyComic/tests"
+    basedir = "/Users/rijam/Pictures/DailyComic/tests"
 
     def setUp(self):
         pass

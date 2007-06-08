@@ -8,7 +8,7 @@ def downloadPicture():
     """This method will download the latest comic from xkcd.org
     """
 # creating target directory
-    basedir = "/Users/rija/Pictures/DailyComic/"
+    basedir = "/Users/rijam/Pictures/DailyComic/"
     curday = time.strftime("%Y/%m/%d")
     targetdir = basedir + curday
     print targetdir

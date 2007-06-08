@@ -32,9 +32,12 @@ def downloadPicture():
     results = []
     rawtext = ''
     imageurl = ''
+    count = 0
     for node in dom.getElementsByTagName(targetelt):
         rawtext =  node.firstChild.data
-        break
+        count += 1;
+        if count == 2:
+            break
 
     pattern = re.compile('.*?: (.*)$')
     match = pattern.match(rawtext)
@@ -45,6 +48,7 @@ def downloadPicture():
 
 # retrieving image data
 
+    print imageurl
     url = imageurl
     sock = urllib.urlopen(url)
     imagedata = sock.read()
